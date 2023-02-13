@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+<head>
+	<title></title>
+	<!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!-- Tailwindcss -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Jquery -->
+    <script src="js/jquery.js"></script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/KH Hebat logo.png">
+</head>
+<body class="overflow-x-hidden">
+   <!-- Header start -->
+  <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-50">
+    <div class="container">
+      <div class="flex item-center justify-between content-center relative">
+        <div class="p-4">
+          <a href="#" class="font-bold text-lg text-blue-600 block">
+            <img src="img/KH_Hebat_logo.png" alt="" class="w-1/3">
+          </a>
+          
+          <!-- <a href="#home" class="font-bold text-lg text-blue-600 block">Kapuas Hulu<span class="text-red-600">Hebat</span>
+          </a> -->
+        </div>
+        <div class="flex items-center p-4">
+          <button id="hamburger" name="hamburger" class="block absolute right-4 lg:hidden">
+            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+            <span class="hamburger-line transition duration-300 ease-in-out"></span> 
+            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span> 
+          </button>
+          <nav id="nav-menu" class="hidden absolute py-5 lg:py-0 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+            <ul class="block lg:flex justify-self-auto">
+              <li class="group">
+                <a href="#" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-secondary lg:group-hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-100">Beranda</a>
+              </li>
+              <li class="group">
+                <a href="#visi-misi" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-secondary lg:group-hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-100">Visi Misi</a>
+              </li>
+              <li class="group">
+                <a href="#about" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-secondary lg:group-hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-100">Tentang</a>
+              </li>
+              <li class="group">
+                <a href="#profile" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-secondary lg:group-hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-100">Profil</a>
+              </li>
+              <li class="group">
+                <a href="#berita" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-secondary lg:group-hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-100">Berita</a>
+              </li>
+              <li class="group">
+                <a href="#gallery" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-secondary lg:group-hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-100">Galeri</a>
+              </li>
+              <li class="group">
+                <a href="#contact" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-secondary lg:group-hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-100">Kontak</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header end -->
+  <!-- Hero Start -->
+  <section class="pt-36 pb-16">
+    <div class="relative bg-transparent overflow-hidden ">
+      <div class="max-w-7xl mx-auto justify-center items-center">
+        <div class="relative z-10 pb-8 bg-transparent sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+          <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+            <div class="sm:text-center lg:text-left">
+              <h1 class="text-2xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                <span class="xl:inline"><span class="text-primary">H</span>armonis, <span class="text-primary">E</span>nergik, <span class="text-primary">B</span>erdaya Saing, <span class="text-primary">A</span>manah, dan <span class="text-primary">T</span>erampil</span>
+              </h1>
+              <h1 class="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                <span class="text-indigo-600 xl:inline">Kapuas Hulu</span> <span class="text-primary xl:inline">Hebat</span>
+              </h1>
+              <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                Bersama Kami, Ayo Lanjutkan <span class="text-indigo-700 shadow">Kapuas Hulu</span> <span class="text-primary shadow">Hebat</span>
+              </p>
+            </div>
+          </main>
+        </div>
+      </div>
+      <div class="flex justify-center items-center">
+        <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <img class="max-h-full object-cover md:h-full lg:h-full" src="img/hero.png" alt="">
+          <!-- shadow -->
+          <div class="p-7 m-4 blur bg-slate-50 -mt-5 opacity-50s">
+                
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <!-- Hero End -->
+  <section class="text-gray-700 body-font" id="visi-misi">
+      <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+        <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center" data-aos="fade-right" data-aos-duration="1500">
+            <h1 class="text-2xl tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-4xl mb-4" >
+              <span class="block text-indigo-700 xl:inline">Kapuas Hulu</span>
+              <span class="block text-primary xl:inline">Hebat</span>
+            </h1>
+          <p class="mb-8 leading-relaxed text-justify"> <a href="#" class="text-lg underline decoration-sky-500">Kapuas Hulu Hebat</a>  adalah jargon atau tagline dari visi-misi Bupati dan wakil Bupati Kapuas Hulu Periode 2021-2024 Pasangan Fransiskus Diaan,S.H dan Wahyudi Hidayat,S.T atau dikenal dengan nama Sis-Wahyu. Kapuas Hulu Hebat yang merupakan singkatan dari <span class="text-lg text-semibold"> Harmonis, Energik, Berdaya Saing, Amanah, dan Terampil </span> </p>
+          <div class="flex justify-center">
+            <button class="text-white bg-gradient-to-r from-indigo-500 to-emerald-400 border-0 py-2 px-6 mt-2 focus:outline-none hover:bg-gradient-to-r hover:from-indigo-600 hover:to-emerald-600 rounded-full text-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="#">Selengkapnya</a> </button>
+          </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <!-- <img class="object-cover object-center rounded" alt="hero" src="img/hero.jpg"> -->
+          <div class="" data-aos="fade-left" data-aos-duration="1500">
+            <h2 class="text-base font-semibold text-center items-center first-letter:text-3xl">Visi</h2>
+            <p class="first-letter:text-4xl">Terwujudnya Kapuas Hulu Yang Harmonis, Energik, Berdaya Saing, Amanah, dan Terampil <span class="text-xl font-medium text-indigo-700">“Kapuas Hulu</span> <span class="text-xl font-medium text-primary">HEBAT”.</span> </p>
+          </div>
+          <div class="" data-aos="fade-up" data-aos-duration="1500">
+            <h2 class="text-base font-semibold text-center items-center first-letter:text-3xl">Misi</h2>
+            <p class="first-letter:text-2xl">1. Mewujudkan Masyarakat Kapuas Hulu yang harmonis dalam kerukunan kehidupan beragama, budaya dan keamanan.</p>
+            <p class="first-letter:text-2xl">2. Mewujudkan Kapuas Hulu yang kreatif menuju desa mandiri, pengembangan aktifitas ekonomi yang adil dan pro rakyat, serta ramah investasi.</p>
+            <p class="first-letter:text-2xl">3. Mewujudkan masyarakat Kapuas Hulu yang berbudaya, mandiri, cerdas dan inovatif dalam meningkatkan kualitas dan mutu pendidikan yang memiliki daya saing.</p>
+            <p class="first-letter:text-2xl">4. Mewujudkan Tata Kelola  Pemerintahan  yang  bersih,  berwibawa  dan  tersedianya infrastruktur publik yang berbasis transparansi, responsibilitas dan akuntanbilitas</p>
+            <p class="first-letter:text-2xl">5. Mewujudkan Kapuas Hulu yang sejahtera dalam pelayanan kesehatan dasar yang bermutu bagi masyarakat.</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="text-gray-700 pt-36 pb-16" id="about">
+    <div class="flex flex-wrap md:flex-wrap">
+      <div class="flex flex-col text-center w-full">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Tentang</h4>
+          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Tentang Kami</h2>
+          <p class="font-medium text-secondary text-md md:text-lg">Sekapur sirih tentang koalisi Kapuas Hulu Hebat.</p>
+        </div>
+      </div>
+      
+      <!-- Gambar/ilustrasi start -->
+      <div class="lg:w-1/2 xl:w-1/2 sm:w-full md:w-1/2 flex flex-col justify-center items-center  rounded">
+          <img class="object-cover items-center flex justify-center" src="img/hero2.png" alt="">
+          <!-- shadow -->
+          <div class="p-7 m-4 blur bg-slate-50 -mt-5 opacity-50s w-full"></div>
+      </div>
+      <!-- Gambar/ilustrasi end -->
+
+      <!-- Isi start -->
+      <div class="p-5 lg:w-1/2 xl:w-1/2 sm:w-full md:w-1/2 flex flex-wrap ">
+        <!-- <p class="mx-auto text-base mt-5">Profil Singkat Bupati dan Wakil Bupati Kapuas Hulu Hebat</p> -->
+        <p class="p-5 mx-auto leading-relaxed text-base items-center">Bupati dan Wakil Bupati Kapuas Hulu diusung oleh Partai PDIP, PAN  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint possimus obcaecati totam quam quidem! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus reprehenderit aliquam tempore, ipsam ducimus unde quibusdam aspernatur temporibus ea labore. </p>
+        <div class="text-center mx-auto font-light">Partai Pengusung</div>
+        <div class="p-5 m-5 mt-5 shadow flex flex-wrap justify-around">
+          <img src="img/PDIP.png" alt="partai pengusung" class="w-1/5 bg-cover ">
+          <img src="img/PAN.png" alt="partai pengusung" class="w-1/5 bg-cover">
+        </div>
+
+      </div>
+      <!-- Isi end -->
+    </div>
+  </section>
+  <section class="text-gray-700 body-font pt-36 pb-16" id="profile">
+    <div class="flex flex-wrap md:flex-wrap">
+      <div class="flex flex-col text-center w-full">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Profil</h4>
+          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Boh, Lebih Kenal Dengan Kami</h2>
+          <p class="font-medium text-secondary text-md md:text-lg">Profil Bupati dan Wakil Bupati koalisi Kapuas Hulu Hebat.</p>
+        </div>
+      </div>
+      
+      <!-- Gambar bupati start -->
+      <div class="lg:w-1/2 xl:w-1/2 sm:w-full md:w-1/2 flex flex-col justify-center items-center rounded" data-aos="fade-left" data-aos-duration="1000">
+          <img class="object-cover items-center flex justify-center w-3/4" src="img/fransiskus-diaan.png" alt="fransiskus-diaan">
+          <!-- shadow -->
+          <div class="p-7 m-4 blur bg-slate-50 -mt-5 opacity-50s w-full"></div>
+      </div>
+      <!-- Gambar bupati end -->
+
+      <!-- Isi Bupati start -->
+      <div class="p-5 lg:w-1/2 xl:w-1/2 sm:w-full md:w-1/2 flex flex-wrap">
+        <!-- <p class="mx-auto text-base mt-5">Profil Singkat Bupati dan Wakil Bupati Kapuas Hulu Hebat</p> -->
+        <ul class="mx-auto leading-tight">
+          <div class="shadow mt-5 p-5 rounded" data-aos="fade-down" data-aos-duration="1000">
+            <li class="text-base flex"><span class="first-letter:text-2xl">Nama : </span><span class="first-letter:text-2xl font-semibold"> FRANSISKUS DIAAN, SH</span></li>
+            <li class="text-base flex">Tempat/Tanggal Lahir : Lung Linge Hatung, 14 Agustus 1981</li>
+            <li class="text-base flex">Pendidikan : Strata I</li>
+            <li class="text-base flex">Agama : Katholik</li>
+            <li class="text-base flex">Status Perkawinan : Kawin</li>
+          </div>
+          <div class="bg-slate-100 mt-5 p-5 rounded" data-aos="fade-down" data-aos-duration="1500">
+            <li class="text-base flex">Sekolah Dasar Negeri 19 Tanjung Karang, Mendalam 1987-1993</li>
+            <li class="text-base flex">Sekolah Menengah Pertama Datah Kayaan, Mendalam 1993-1996</li>
+            <li class="text-base flex">Sekolah Menengah Atas Karya Budi, Putussibau 1997-2000</li>
+            <li class="text-base flex">Strata I Universitas TanjungPura, Pontianak 2000-2004</li>
+          </div>
+          <div class="bg-slate-100 mt-5 p-5 rounded" data-aos="fade-down" data-aos-duration="2000">
+            <li >Wakil Ketua DPC PDI PERJUANGAN Kabupaten Landak 2005-2010</li>
+            <li class="text-base flex">Bendahara DPD PDI PERJUANGAN Provinsi Kalimantan Barat 2010-2015</li>
+            <li class="text-base flex">Bendahara DPD PDI PERJUANGAN Provinsi Kalimantan Barat 2015-2020</li>
+          </div>
+        </ul>
+      </div>
+      <!-- Isi Bupati end -->
+      <!-- Gambar Wakil bupati start -->
+      <div class="lg:w-1/2 xl:w-1/2 sm:w-full md:w-1/2 flex flex-col justify-center items-center  rounded lg:order-last" data-aos="fade-left" data-aos-duration="1500">
+        <img class="object-cover items-center flex justify-center w-3/4" src="img/wahyudi-hidayat.png" alt="">
+        <!-- shadow -->
+        <div class="p-7 m-4 blur bg-slate-50 -mt-5 opacity-50s w-full"></div>
+      </div>
+      <!-- Gambar Wakil bupati end --> 
+
+      <!-- Isi Wabup start -->
+      <div class="p-5 lg:w-1/2 xl:w-1/2 sm:w-full md:w-1/2 flex flex-wrap justify-center items-center">
+        <!-- <p class="mx-auto text-base mt-5">Profil Singkat Bupati dan Wakil Bupati Kapuas Hulu Hebat</p> -->
+        <ul class="flex-row mx-auto leading-tight">
+          <div class="shadow mt-5 p-5 rounded" data-aos="fade-right" data-aos-duration="1000">
+            <li class="text-base flex"><span class="first-letter:text-2xl">Nama : </span><span class="first-letter:text-2xl font-semibold">WAHYUDI HIDAYAT, ST</span></li>
+            <li class="text-base flex">Tempat/Tanggal Lahir : Jongkong, 15 Juni 1982</li>
+            <li class="text-base flex">Pendidikan : Strata I</li>
+            <li class="text-base flex">Agama : Islam</li>
+            <li class="text-base flex">Status Perkawinan : Kawin</li>
+          </div>
+          <div class="bg-slate-100 mt-5 p-5 rounded" data-aos="fade-right" data-aos-duration="1500">
+            <li class="text-base flex">SD MIS HIDAYATUL MUWTAQIM 1994</li>
+            <li class="text-base flex">Sekolah Menengah Pertama MTSn Jongkong 1997</li>
+            <li class="text-base flex">Sekolah Menengah Atas MAS AL HUDA JONGKONG 2000</li>
+            <li class="text-base flex">Strata I Universitas Muhammadiyah Yogyakarta 2004</li>
+          </div>
+          <div class="bg-red-100 mt-5 p-5 rounded" data-aos="fade-right" data-aos-duration="2000">
+            <li >Wakil Ketua Kamar Dagang dan Industri (KADIN) Kapuas Hulu 2016 - 2021</li>
+            <li class="text-base flex">Ketua PSSI Kabupaten Kapuas Hulu 2020 - 2024</li>
+            <li class="text-base flex">Sekretaris Laskar Anti Korupsi (LAKI) 2019 - 2023</li>
+            <li class="text-base flex">Wakil Ketua DPD Persatuan Forum Komunikasi Pemuda Melayu Kabupaten Kapuas Hulu 2018 - 2023</li>
+          </div>
+        </ul>
+
+      </div>
+      <!-- Isi wabup end -->
+     
+      
+    </div>
+  </section>
+  <!-- Berita Section start -->
+  <section class="pt-36 pb-16 bg-slate-100" id="berita">
+    <div class="container">
+      <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Berita</h4>
+          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Berita Terkini</h2>
+          <p class="font-medium text-secondary text-md md:text-lg">Berita terkini dan relevan berhubungan dengan koalisi Kapuas Hulu Hebat.</p>
+        </div>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-1/2 xl:w-1/3 px-4">
+          <div class="bg-white rounded-xl overflow-hidden mb-10">
+            <img src="img/bupati-kh-hut-kalbar.jpg" alt="" class="w-full">
+            <div class="py-8 px-6">
+              <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
+                <h3>Bupati Kapuas Hulu Ajak Semua Pihak Tingkatkan Kualitas SDM di acara HUT Pemprov Kalbar ke-66</h3>
+              </a>
+              <p class="font-medium text-base text-secondary mb-4">Bupati Kapuas Hulu, Fransiskus Diaan memimpin upacara peringatan HUT Pemerintah Provinsi Kalimantan Barat (Pemprov Kalbar) ke-66 tahun 2023 dengan tema “Kalbar Maju Lingkungan Hidup Lestari Dalam Keberagaman”, di Lapangan GOR Uncak Kapuas Putussibau, Sabtu (28/01/2023) pagi.</p>
+              <a href="#" class="font-medium text-sm text-white bg-primary rounded-lg py-2 px-4 hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 xl:w-1/3 px-4">
+          <div class="bg-white rounded-xl overflow-hidden mb-10">
+            <img src="img/wabup-imlek-kalis.jpeg" alt="" class="w-full">
+            <div class="py-8 px-6">
+              <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
+                <h3>Wakil Bupati Kapuas Hulu Hadiri Misa Syukuran Perayaan Imlek di Kecamatan Kalis</h3>
+              </a>
+              <p class="font-medium text-base text-secondary mb-4">Wakil Bupati Kapuas Hulu Wahyudi Hidayat, S.T menghadiri Misa Syukuran perayaan Imlek bersama Paroki kunjungan Santa Maria Peniung Keuskupan Sintang Tahun 2023 di Kecamatan Kalis.</p>
+              <a href="#" class="font-medium text-sm text-white bg-primary rounded-lg py-2 px-4 hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 xl:w-1/3 px-4">
+          <div class="bg-white rounded-xl overflow-hidden mb-10">
+            <img src="img/bupati-kapuas-hulu-mendeklarasikan-desa-odf.jpeg" alt="" class="w-full">
+            <div class="py-8 px-6">
+              <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
+                <h3>Bupati Kapuas Hulu Mendeklarasikan Desa ODF</h3>
+              </a>
+              <p class="font-medium text-base text-secondary mb-4">Bupati Kapuas Hulu Fransiskus Diaan, S.H. Mendeklarasikan Desa ODF (Open Defecation Free) stop buang air besar sembarang tempat untuk Desa Bunut Hulu dan Desa Bunut Tengah Kecamatan Bunut Hilir.</p>
+              <a href="#" class="font-medium text-sm text-white bg-primary rounded-lg py-2 px-4 hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 xl:w-1/3 px-4">
+          <div class="bg-white rounded-xl overflow-hidden mb-10">
+            <img src="img/wabup-bank-syariah.jpg" alt="" class="w-full">
+            <div class="py-8 px-6">
+              <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
+                <h3>Wakil Bupati Kapuas Hulu Hadiri Grand Opening Bank Syariah Indonesia Kantor Cabang Pembatu Putussibau</h3>
+              </a>
+              <p class="font-medium text-base text-secondary mb-4">Wakil Bupati Kapuas Hulu Wahyudi Hidayat, S.T menghadiri Grand Opening Bank BSI (Bank Syariah Indonesia) KCP (Kantor Cabang Pembantu) Putussibau. 16/1/2023.</p>
+              <a href="#" class="font-medium text-sm text-white bg-primary rounded-lg py-2 px-4 hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 xl:w-1/3 px-4">
+          <div class="bg-white rounded-xl overflow-hidden mb-10">
+            <img src="img/bupati-produk-kerajinan.jpg" alt="" class="w-full">
+            <div class="py-8 px-6">
+              <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
+                <h3>Pemkab Kapuas Hulu siap promosikan produk kerajinan ke mancanegara</h3>
+              </a>
+              <p class="font-medium text-base text-secondary mb-4">Bupati Kapuas Hulu Fransiskus Diaan menekankan agar pusat promosi kerajinan yang dimiliki Kapuas Hulu saat ini dapat menghasilkan produk yang berkualitas dan menarik perhatian serta di minati pasaran hingga mancanegara.</p>
+              <a href="#" class="font-medium text-sm text-white bg-primary rounded-lg py-2 px-4 hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 xl:w-1/3 px-4">
+          <div class="bg-white rounded-xl overflow-hidden mb-10">
+            <img src="img/wabup-wisata-embaloh.jpg" alt="" class="w-full">
+            <div class="py-8 px-6">
+              <a href="" class="block mb-3 font-semibold text-xl text-dark hover:text-primary truncate">
+                <h3>Wakil Bupati Kapuas Hulu Resmikan Wisata Danau Bungkang Di Embaloh Hilir</h3>
+              </a>
+              <p class="font-medium text-base text-secondary mb-4">Wakil Bupati Kapuas Hulu Wahyudi Hidayat,S.T. didampingi Ny. Via Octaria Wahyudi Hidayat meresmikan wisata Danau Bungkang yang berlokasi di Desa Nanga Embaloh Kecamatan Embaloh Hilir, Jumat (25/03/2022).</p>
+              <a href="#" class="font-medium text-sm text-white bg-primary rounded-lg py-2 px-4 hover:opacity-80">Baca Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <!-- Berita Section end -->
+
+  <section class="text-gray-700 body-font" id="gallery">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Galeri</h4>
+          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Galeri Media</h2>
+          <p class="font-medium text-secondary text-md md:text-lg">Kunjungan dan Kegiatan Kami dalam Membangun Kapuas Hulu </p>
+        </div>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="img/bupati-produk-kerajinan.jpg">
+            <caption></caption>
+            <div class="px-8 py-10 relative z-5 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Bupati Kapuas Hulu & Istri</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Kegiatan Dekranasda, Putussibau</h1>
+              <p class="leading-relaxed">"Bupati di didampingi istri Ny. Angelina Fremalco dalam rangka kegiatan promosi kerajinan daerah, kegiatan Dekranasda Kapuas Hulu" </p>
+              <button class="text-white bg-gradient-to-r from-indigo-500 to-emerald-400 border-0 py-2 px-6 mt-2 focus:outline-none hover:bg-gradient-to-r hover:from-indigo-600 hover:to-emerald-600 rounded-full text-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="#">Lihat Selengkapnya </a> </button>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="img/bupati-peresmian-gereja-sejiram.jpg">
+            <caption></caption>
+            <div class="px-8 py-10 relative z-5 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Bupati Kapuas Hulu</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Peresmian Gereja, Sejiram, Kec.Seberuang </h1>
+              <p class="leading-relaxed">Bupati Kapuas Hulu Fransiskus Diaan bersama Uskup Keuskupan Sintang Mgr Samuel Oton Sidin, OFM,Cap dan Anggota Komisi II DPR RI Cornelis meresmikan Gereja Katolik Santo Fidelis Sigmarigen Paroki Sejiram Kec. Seberuang.</p>
+              <button class="text-white bg-gradient-to-r from-indigo-500 to-emerald-400 border-0 py-2 px-6 mt-2 focus:outline-none hover:bg-gradient-to-r hover:from-indigo-600 hover:to-emerald-600 rounded-full text-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="#">Lihat Selengkapnya </a> </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="img/bupati dan wabup.jpg">
+            <caption></caption>
+            <div class="px-8 py-10 relative z-5 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Bupati dan Wakil Kapuas Hulu </h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Hari Jadi Negeri Nanga Bunut, Bunut Hilir</h1>
+              <p class="leading-relaxed">"Kunjungan Bupati dan Wakil Bupati dalam menghadiri langsung Hari Jadi Negeri Nanga Bunut Bumi Ulak Mahkota Raja Ke-208, di Kecamatan Bunut Hilir </p>
+              <button class="text-white bg-gradient-to-r from-indigo-500 to-emerald-400 border-0 py-2 px-6 mt-2 focus:outline-none hover:bg-gradient-to-r hover:from-indigo-600 hover:to-emerald-600 rounded-full text-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="#">Lihat Selengkapnya </a> </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="img/wabup-imlek-kalis.jpeg">
+            <caption></caption>
+            <div class="px-8 py-10 relative z-5 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Wakil Bupati Kapuas Hulu</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Imlek 2023, Kalis</h1>
+              <p class="leading-relaxed">Wakil Bupati Kapuas Hulu Wahyudi Hidayat, S.T menghadiri Misa Syukuran perayaan Imlek bersama Paroki kunjungan Santa Maria Peniung Keuskupan Sintang Tahun 2023 di Kecamatan Kalis. </p>
+              <button class="text-white bg-gradient-to-r from-indigo-500 to-emerald-400 border-0 py-2 px-6 mt-2 focus:outline-none hover:bg-gradient-to-r hover:from-indigo-600 hover:to-emerald-600 rounded-full text-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="#">Lihat Selengkapnya </a> </button>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="img/bupati-peresmian-puskesmas.JPG">
+            <caption></caption>
+            <div class="px-8 py-10 relative z-5 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Bupati Kapuas Hulu</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Peresmian 8 Puskesmas, Nanga Dangkan, Silat Hulu</h1>
+              <p class="leading-relaxed">Bupati Kapuas Hulu Fransiskus Diaan, meresmikan 8 puskesmas yang dipusatkan di Desa Dangkan Kecamatan Silat Hulu Kabupaten Kapuas Hulu, Kalimantan Barat, Kamis (16/9/2021).</p>
+              <button class="text-white bg-gradient-to-r from-indigo-500 to-emerald-400 border-0 py-2 px-6 mt-2 focus:outline-none hover:bg-gradient-to-r hover:from-indigo-600 hover:to-emerald-600 rounded-full text-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="#">Lihat Selengkapnya </a> </button>
+            </div>
+          </div>
+        </div>
+        <div class="lg:w-1/3 sm:w-1/2 p-4">
+          <div class="flex relative">
+            <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="img/wabup-wisata-embaloh.jpg">
+            <caption></caption>
+            <div class="px-8 py-10 relative z-5 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+              <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">Wakil Bupati Kapuas Hulu & Istri</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Peresmian Wisata Danau Bungkang, Nanga Embaloh</h1>
+              <p class="leading-relaxed">Wakil Bupati Wahyudi Hidayat,S.T. didampingi Ny. Via Octaria Wahyudi Hidayat meresmikan wisata Danau Bungkang yang terletak di Desa Nanga Embaloh </p>
+              <button class="text-white bg-gradient-to-r from-indigo-500 to-emerald-400 border-0 py-2 px-6 mt-2 focus:outline-none hover:bg-gradient-to-r hover:from-indigo-600 hover:to-emerald-600 rounded-full text-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"><a href="#">Lihat Selengkapnya </a> </button>
+            </div>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </div>
+  </section>
+  <!-- Contact section start -->
+  <section id="contact" class="pt-36 pb-32">
+    <div class="w-full px-4">
+      <div class="flex flex-col text-center w-full mb-20">
+        <div class="max-w-xl mx-auto text-center mb-16">
+          <h4 class="font-semibold text-lg text-primary mb-2">Kontak</h4>
+          <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+          <p class="font-medium text-secondary text-md md:text-lg">Hubungi kami untuk pertanyaan lebih lanjut melalui kontak form berikut atau kunjungi kami melalui sosial media atau datang langsung ke sekretariat kami pada map ini</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex flex-wrap items-center justify-center">
+      <!-- form start -->
+      <div class="lg:w-1/2 md:w-1/2 p-4 ">
+        <div class="container">
+          <form action="">
+            <div class="w-full lg:w-2/3 mx-auto">
+              <div class="w-full px-4 mb-8">
+                <label for="name" class="text-base font-bold text-primary">Nama </label>
+                <input type="text" name="name" id="name" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:border-primary">
+              </div>
+              <div class="w-full px-4 mb-8">
+                <label for="email" class="text-base font-bold text-primary">Email </label>
+                <input type="email" name="email" id="email" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:border-primary">
+              </div>
+              <div class="w-full px-4 mb-8">
+                <label for="no_hp" class="text-base font-bold text-primary">No. Handphone (HP) </label>
+                <input type="tel" name="no_hp" id="no_hp" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:border-primary">
+              </div>
+              <div class="w-full px-4 mb-8">
+                <label for="message" class="text-base font-bold text-primary">Pesan </label>
+                <textarea name="message" id="message" cols="30" rows="10" class="w-full bg-slate-200 text-dark p-3 rounded-md focus:outline-none focus:ring-1 focus:border-primary"></textarea>
+              </div>
+              <div class="w-full px-4">
+                <button class="font-bold text-base text-white px-4 py-2 bg-gradient-to-r from-indigo-500 to-emerald-400 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">Kirim</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- form end -->
+       <!-- map start -->
+       <div class="lg:w-1/2 md:w-1/2 p-4">
+         <div class="container">
+          <div class="border-2 rounded-md overflow-x-hidden">
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.4537815805734!2d109.37016082915802!3d-0.07249865889275361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4a492282be488dea!2zMMKwMDQnMjEuMCJTIDEwOcKwMjInMTQuNiJF!5e0!3m2!1sid!2sid!4v1644243265495!5m2!1sid!2sid" style="border:0;" height="500" allowfullscreen="" loading="lazy" class="w-full"></iframe> -->
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7978.663212774538!2d112.93876254300231!3d0.8949574441468697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3201ebdd819bac9b%3A0x9d789f27cbbba230!2sPala%20Pulau%2C%20Kec.%20Putussibau%20Utara%2C%20Kabupaten%20Kapuas%20Hulu%2C%20Kalimantan%20Barat!5e0!3m2!1sid!2sid!4v1675305502838!5m2!1sid!2sid" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full"></iframe>
+
+          </div>
+        </div>
+       </div>
+      <!-- map end -->
+    </div>
+  </section>
+  <!-- Contact section end -->
+
+    
+<footer class="text-gray-700 body-font bg-gradient-to-r from-blue-500 to-blue-300">
+    <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+        <a href="#" class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+          <img src="img/KH_Hebat_logo.png" alt="" class="bg-over">
+        </a>
+        <p class="text-2xl text-slate-50 ">Lanjutkan..!</p>
+        
+      </div>
+      <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-bold text-white tracking-widest text-lg mb-3">Sekretariat</h2>
+          <nav class="list-none mb-10">
+            <div class="text-base text-slate-50">
+              <p>Jl. Lintas Utara, No. xx</p> 
+              <p>Kota Putussibau</p>
+              <p>Kalimantan Barat</p>
+            </div>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-bold text-white tracking-widest text-center text-lg mb-3">Akun Resmi</h2>
+          <nav class="list-none mb-10 flex flex-col gap-4">
+            <div class="flex justify-center items-center ">
+              <a class="flex text-white hover:ring-2 hover:ring-slate-50" href="#facebook">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg> 
+              </a>
+            </div>
+            <div class="flex justify-center items-center ">
+              <a class="flex text-white text-center hover:ring-2 hover:ring-slate-50" href="#instagram">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg> 
+              </a>
+            </div>
+            <div class="flex justify-center items-center ">
+              <a class="flex text-white text-center hover:ring-2 hover:ring-slate-50" href="#instagram">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg> 
+              </a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-blue-500">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row ">
+        <p class="text-white text-sm text-center sm:text-left">Design by 
+          <a href="#" rel="noopener noreferrer" class="ml-1" target="_blank">Nobertus Erik </a> © 2022 
+        </p>
+        <span class="inline-flex sm:ml-auto lg:ml-auto lg-mr-4 sm:mt-0 mt-2 justify-center sm:justify-start sm:mr-4">
+          <a class="text-white ring-1 ring-white" href="#facebokk">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-white ring-1 ring-white" href="#twitter">
+            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-white ring-1 ring-white" href="#instagram">
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+            </svg>
+          </a>
+          <a class="ml-3 text-white ring-1 ring-white" href="#linkedin">
+            <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+              <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+              <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+        </span>
+      </div>
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col">
+        <p class="text-white text-sm text-center sm:text-left">
+          <a href="#" rel="" class="ml-1 text-white" target="_blank">Nobertus Erik</a>
+        </p>
+        <p class="text-white text-sm text-center sm:text-left"> Held by   
+          <a href="#" rel="noopener noreferrer" class="text-white ml-1" target="_blank">PT. Katur Teknologi Utama</a> © 2022
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- script -->
+  <script src="js/script.js"></script>
+  
+  <!-- AOS Js -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  
+  <!-- Ionic Icon 5.5.2 -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/620e909a1ffac05b1d7a6cfc/1fs4e9nml';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+  </script>
+    <!--End of Tawk.to Script-->
+  
+</body>
+</html>
